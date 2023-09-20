@@ -1,6 +1,6 @@
-{% extends 'base.html.twig' %}
+{% extends '../base.html.twig' %}
 
-{% block title %}Hello ProductController!{% endblock %}
+{% block title %}Hello SlugifyController!{% endblock %}
 
 {% block body %}
 <style>
@@ -9,6 +9,12 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>{{ controller_name }}</h1>
+    <h1>Hello {{ controller_name }}! ✅</h1>
+
+    This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ '/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5/src/Controller/Slugify.php'|file_link(0) }}">src/Controller/SlugifyController.php</a></code></li>
+        <li>Your template at <code><a href="{{ '/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5/templates/slugify/index.html.twig'|file_link(0) }}">templates/slugify/index.html.twig</a></code></li>
+    </ul>
 </div>
 {% endblock %}
