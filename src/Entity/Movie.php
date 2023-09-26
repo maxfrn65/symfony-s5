@@ -2,10 +2,15 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Metadata\ApiResource;
 use App\Repository\MovieRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
+use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: MovieRepository::class)]
+#[ApiResource()]
 class Movie
 {
     #[ORM\Id]
@@ -14,51 +19,113 @@ class Movie
     private ?int $id = null;
 
     #[ORM\Column(length: 255)]
-    private ?string $name = null;
+    private ?string $title = null;
 
-    #[ORM\Column(length: 255)]
-    private ?string $director = null;
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $description = null;
 
-    #[ORM\Column]
-    private ?int $release_date = null;
+    #[ORM\Column(type: Types::DATETIME_MUTABLE, nullable: true)]
+    private ?\DateTimeInterface $releaseDate = null;
+
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $duration = null;
+
+    #[ORM\ManyToOne(inversedBy: 'movies')]
+    private ?Category $category = null;
+
+    #[ORM\ManyToMany(targetEntity: Actor::class, inversedBy: 'movies')]
+    private Collection $actor;
+
+    public function __construct()
+    {
+        $this->actor = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    public function getName(): ?string
+    public function getTitle(): ?string
     {
-        return $this->name;
+        return $this->title;
     }
 
-    public function setName(string $name): static
+    public function setTitle(string $title): static
     {
-        $this->name = $name;
+        $this->title = $title;
 
         return $this;
     }
 
-    public function getRdirector(): ?string
+    public function getDescription(): ?string
     {
-        return $this->director;
+        return $this->description;
     }
 
-    public function setDirector(string $director): static
+    public function setDescription(?string $description): static
     {
-        $this->director = $director;
+        $this->description = $description;
 
         return $this;
     }
 
-    public function getReleaseDate(): ?int
+    public function getReleaseDate(): ?\DateTimeInterface
     {
-        return $this->release_date;
+        return $this->releaseDate;
     }
 
-    public function setReleaseDate(int $release_date): static
+    public function setReleaseDate(?\DateTimeInterface $releaseDate): static
     {
-        $this->release_date = $release_date;
+        $this->releaseDate = $releaseDate;
+
+        return $this;
+    }
+
+    public function getDuration(): ?string
+    {
+        return $this->duration;
+    }
+
+    public function setDuration(string $duration): static
+    {
+        $this->duration = $duration;
+
+        return $this;
+    }
+
+    public function getCategory(): ?Category
+    {
+        return $this->category;
+    }
+
+    public function setCategory(?Category $category): static
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Actor>
+     */
+    public function getActor(): Collection
+    {
+        return $this->actor;
+    }
+
+    public function addActor(Actor $actor): static
+    {
+        if (!$this->actor->contains($actor)) {
+            $this->actor->add($actor);
+        }
+
+        return $this;
+    }
+
+    public function removeActor(Actor $actor): static
+    {
+        $this->actor->removeElement($actor);
 
         return $this;
     }
