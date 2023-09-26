@@ -2,12 +2,14 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Metadata\ApiResource;
 use App\Repository\ActorRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ActorRepository::class)]
+#[ApiResource()]
 class Actor
 {
     #[ORM\Id]
@@ -21,7 +23,7 @@ class Actor
     #[ORM\Column(length: 255)]
     private ?string $lastName = null;
 
-    #[ORM\ManyToMany(targetEntity: Movie::class, mappedBy: 'actors')]
+    #[ORM\ManyToMany(targetEntity: Movie::class, mappedBy: 'actor')]
     private Collection $movies;
 
     public function __construct()
@@ -41,12 +43,12 @@ class Actor
         return $this;
     }
 
-    public function getFistName(): ?string
+    public function getFirstName(): ?string
     {
         return $this->fistName;
     }
 
-    public function setFistName(string $fistName): static
+    public function setFirstName(string $fistName): static
     {
         $this->fistName = $fistName;
 
