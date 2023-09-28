@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat entites + orm setup">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat">
+      <change afterPath="$PROJECT_DIR$/request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae301.PebCyQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae301.PebCyQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae401._unCyQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae401._unCyQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symfony-s5.lL2h4w.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symfony-s5.lL2h4w.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symrecipe.FaN5Ag.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symrecipe.FaN5Ag.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony-s5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-s5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/movie-event" />
+        <entry key="$PROJECT_DIR$" value="feature/orm-setup" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -237,7 +239,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/orm-setup&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/nationality&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -246,7 +248,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -294,6 +296,10 @@
       <workItem from="1695212017372" duration="9511000" />
       <workItem from="1695647256813" duration="4715000" />
       <workItem from="1695653609202" duration="6795000" />
+      <workItem from="1695708364707" duration="4956000" />
+      <workItem from="1695717013852" duration="9000" />
+      <workItem from="1695735435720" duration="3599000" />
+      <workItem from="1695804652020" duration="137000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -367,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695653296057</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat exposing entities to api">
+      <option name="closed" value="true" />
+      <created>1695708533523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695708533523</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,10 +420,16 @@
     <MESSAGE value="feat event listener" />
     <MESSAGE value="Entities" />
     <MESSAGE value="feat entites + orm setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat entites + orm setup" />
+    <MESSAGE value="feat exposing entities to api" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat exposing entities to api" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
+    <expand>
+      <path>
+        <item name="symfony-s5" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file:///Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
     <select />
   </component>
 </project>
