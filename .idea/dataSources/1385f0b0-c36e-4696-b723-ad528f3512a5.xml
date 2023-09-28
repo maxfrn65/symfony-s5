@@ -1098,8 +1098,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="symfony-s5">
-      <IntrospectionTimestamp>2023-09-28.13:30:07</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-09-28.09:30:07</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-09-28.13:54:30</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-09-28.09:54:30</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="296" parent="1" name="maxime">
