@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat">
-      <change afterPath="$PROJECT_DIR$/request.md" afterDir="false" />
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat user fixtures">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae301.PebCyQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae301.PebCyQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae401._unCyQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sae401._unCyQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symfony-s5.lL2h4w.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symfony-s5.lL2h4w.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symrecipe.FaN5Ag.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symrecipe.FaN5Ag.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Actor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Actor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +227,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/nationality&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/security&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -286,6 +274,10 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SwiftWorkspaceSettings">
+    <option name="detectedToolchain" value="true" />
+    <option name="toolchainPathValue" value="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="" />
@@ -300,6 +292,14 @@
       <workItem from="1695717013852" duration="9000" />
       <workItem from="1695735435720" duration="3599000" />
       <workItem from="1695804652020" duration="137000" />
+      <workItem from="1695892228538" duration="4009000" />
+      <workItem from="1695896641337" duration="502000" />
+      <workItem from="1695902912994" duration="210000" />
+      <workItem from="1695968214000" duration="5652000" />
+      <workItem from="1697442104705" duration="120000" />
+      <workItem from="1697442245109" duration="96000" />
+      <workItem from="1697442363266" duration="1379000" />
+      <workItem from="1697444655237" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -381,7 +381,39 @@
       <option name="project" value="LOCAL" />
       <updated>1695708533523</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat nationality fixtures">
+      <option name="closed" value="true" />
+      <created>1695893119558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695893119558</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat login form + user class">
+      <option name="closed" value="true" />
+      <created>1695894022494</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695894022494</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat user fixtures">
+      <option name="closed" value="true" />
+      <created>1695903097366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695903097366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat user fixtures">
+      <option name="closed" value="true" />
+      <created>1695903111029</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695903111029</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +453,10 @@
     <MESSAGE value="Entities" />
     <MESSAGE value="feat entites + orm setup" />
     <MESSAGE value="feat exposing entities to api" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat exposing entities to api" />
+    <MESSAGE value="feat nationality fixtures" />
+    <MESSAGE value="feat login form + user class" />
+    <MESSAGE value="feat user fixtures" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat user fixtures" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
