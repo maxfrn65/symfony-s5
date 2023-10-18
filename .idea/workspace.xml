@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: movie crud + jwt bundle">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: jwt bundle configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony-s5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-s5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,6 +307,8 @@
       <workItem from="1697449477611" duration="109000" />
       <workItem from="1697449634040" duration="2647000" />
       <workItem from="1697460740663" duration="5051000" />
+      <workItem from="1697544443058" duration="2439000" />
+      <workItem from="1697609204938" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -442,7 +438,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697459751149</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix: hashing fixtures password">
+      <option name="closed" value="true" />
+      <created>1697525298076</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697525298076</updated>
+    </task>
+    <task id="LOCAL-00018" summary="chore: jwt bundle configuration">
+      <option name="closed" value="true" />
+      <created>1697525334790</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697525334791</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +499,9 @@
     <MESSAGE value="feat user fixtures" />
     <MESSAGE value="chore: security files" />
     <MESSAGE value="chore: movie crud + jwt bundle" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: movie crud + jwt bundle" />
+    <MESSAGE value="fix: hashing fixtures password" />
+    <MESSAGE value="chore: jwt bundle configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: jwt bundle configuration" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

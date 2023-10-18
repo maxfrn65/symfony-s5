@@ -18,6 +18,7 @@ class MoviesFixtures extends Fixture implements DependentFixtureInterface
             $movie->setDuration(rand(60, 180));
             $movie->setDescription('Description ' . $i);
             $movie->setCategory($this->getReference('category_' . rand(1, 5)));
+            $movie->setOnline(rand(0, 1));
             $actors = [];
             foreach (range(1, rand(2, 6)) as $j) {
                 $actor = $this->getReference('actor_' . rand(1, 10));
