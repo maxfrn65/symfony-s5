@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: movie crud + jwt bundle">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat (wip): movie api filter">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/lexik_jwt_authentication.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony-s5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-s5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +230,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/api-filter-movie&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -313,6 +306,12 @@
       <workItem from="1697449477611" duration="109000" />
       <workItem from="1697449634040" duration="2647000" />
       <workItem from="1697460740663" duration="5051000" />
+      <workItem from="1697544443058" duration="2439000" />
+      <workItem from="1697609204938" duration="1744000" />
+      <workItem from="1697640880661" duration="1782000" />
+      <workItem from="1697700103122" duration="11000" />
+      <workItem from="1697700189036" duration="20000" />
+      <workItem from="1700551020765" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -442,7 +441,31 @@
       <option name="project" value="LOCAL" />
       <updated>1697459751149</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix: hashing fixtures password">
+      <option name="closed" value="true" />
+      <created>1697525298076</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697525298076</updated>
+    </task>
+    <task id="LOCAL-00018" summary="chore: jwt bundle configuration">
+      <option name="closed" value="true" />
+      <created>1697525334790</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697525334791</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feat: movie api filter">
+      <option name="closed" value="true" />
+      <created>1697611717664</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697611717664</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +510,10 @@
     <MESSAGE value="feat user fixtures" />
     <MESSAGE value="chore: security files" />
     <MESSAGE value="chore: movie crud + jwt bundle" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: movie crud + jwt bundle" />
+    <MESSAGE value="fix: hashing fixtures password" />
+    <MESSAGE value="chore: jwt bundle configuration" />
+    <MESSAGE value="feat: movie api filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: movie api filter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
