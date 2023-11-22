@@ -2,15 +2,19 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
+use ApiPlatform\Doctrine\Orm\Filter\BooleanFilter;
 use App\Repository\MovieRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity(repositoryClass: MovieRepository::class)]
 #[ApiResource()]
+#[ApiFilter(BooleanFilter::class, properties: ['online'])]
 class Movie
 {
     #[ORM\Id]
@@ -18,6 +22,7 @@ class Movie
     #[ORM\Column]
     private ?int $id = null;
 
+    #[Assert\NotBlank(message: "Le titre est obligatoire")]
     #[ORM\Column(length: 255)]
     private ?string $title = null;
 
@@ -35,6 +40,9 @@ class Movie
 
     #[ORM\ManyToMany(targetEntity: Actor::class, inversedBy: 'movies')]
     private Collection $actor;
+
+    #[ORM\Column]
+    private ?bool $online = null;
 
     public function __construct()
     {
@@ -126,6 +134,18 @@ class Movie
     public function removeActor(Actor $actor): static
     {
         $this->actor->removeElement($actor);
+
+        return $this;
+    }
+
+    public function isOnline(): ?bool
+    {
+        return $this->online;
+    }
+
+    public function setOnline(bool $online): static
+    {
+        $this->online = $online;
 
         return $this;
     }
