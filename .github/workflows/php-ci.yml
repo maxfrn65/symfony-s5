@@ -1,0 +1,32 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Symfony S5 Test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  symfony-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repository
+        run: git clone https://github.com/maxfrn65/symfony-s5.git
+      - name: Install Dependencies
+        run: cd symfony-s5 && composer install
+      - name: Run Tests
+        run: vendor/bin/phpunit tests/
+      - name: Run Code Sniffer
+        run: vendor/bin/phpcs --standard=PSR12 src/ tests/
+      - name: Run PHPStan
+        run: vendor/bin/phpstan analyse src/ tests/
+      - name: Run PHPMD
+        run: vendor/bin/phpmd src/ text cleancode,codesize,controversial,design,naming

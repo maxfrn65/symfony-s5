@@ -4,23 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: composer update">
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: PSR12 compliant">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/php-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MovieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MovieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/MoviesFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/NationalityFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/NationalityFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Event/EntitySavedEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event/EntitySavedEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EventSubscriber/EntitySavedEventSubscriber.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EventSubscriber/EntitySavedEventSubscriber.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/LoginAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/LoginAuthenticator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony-s5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-s5.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
@@ -223,6 +215,9 @@
       <path value="$PROJECT_DIR$/vendor/lcobucci/clock" />
       <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
       <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
+      <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -331,7 +326,7 @@
       <workItem from="1700551020765" duration="3846000" />
       <workItem from="1700638737217" duration="627000" />
       <workItem from="1700639379063" duration="81000" />
-      <workItem from="1700639731594" duration="3091000" />
+      <workItem from="1700639731594" duration="9160000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -501,7 +496,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700638840765</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="chore: PSR12 compliant">
+      <option name="closed" value="true" />
+      <created>1700645129870</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645129870</updated>
+    </task>
+    <task id="LOCAL-00023" summary="chore: PSR12 compliant">
+      <option name="closed" value="true" />
+      <created>1700645142157</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1700645142157</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +562,8 @@
     <MESSAGE value="feat: movie api filter" />
     <MESSAGE value="feat (wip): movie api filter" />
     <MESSAGE value="chore: composer update" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: composer update" />
+    <MESSAGE value="chore: PSR12 compliant" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: PSR12 compliant" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
