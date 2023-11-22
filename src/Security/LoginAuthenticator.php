@@ -50,7 +50,7 @@ class LoginAuthenticator extends AbstractLoginFormAuthenticator
 
         // For example:
         // return new RedirectResponse($this->urlGenerator->generate('some_route'));
-        throw new \Exception('/'.__FILE__);
+        throw new \Exception('/' . __FILE__);
     }
 
     protected function getLoginUrl(Request $request): string

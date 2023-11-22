@@ -1,10 +1,9 @@
 <?php
 
-// src/Event/EntitySavedEvent.php
 namespace App\Event;
 
 use Symfony\Contracts\EventDispatcher\Event;
-use App\Entity\Movie; // Remplacez YourEntity par le nom de votre entité
+use App\Entity\Movie;
 
 class EntitySavedEvent extends Event
 {

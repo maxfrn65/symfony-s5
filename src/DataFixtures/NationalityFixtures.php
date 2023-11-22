@@ -11,7 +11,7 @@ class NationalityFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
-        foreach (range(1,9) as $i) {
+        foreach (range(1, 9) as $i) {
             $nationality = new Nationality();
             $nationality->setNationality('nationality ' . $i);
             $this->addReference('nationality_' . $i, $nationality);
