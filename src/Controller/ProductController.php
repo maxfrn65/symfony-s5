@@ -18,7 +18,7 @@ class ProductController extends AbstractController
     }
 
     #[Route('/product/{string}', name: 'app_slug_product')]
-    public function slugify(Slugify $slugify, $string): Response
+    public function slugify(Slugify $slugify, string $string): Response
     {
         $slug = $slugify->genereateSlug($string);
         return $this->render('product/slug.html.twig', [
@@ -28,7 +28,7 @@ class ProductController extends AbstractController
     }
 
     #[Route('/product/{id}', name: 'app_product_show')]
-    public function show($id): Response
+    public function show(int $id): Response
     {
         return $this->render('product/details.html.twig', [
             'controller_name' => 'Détail du produit',
