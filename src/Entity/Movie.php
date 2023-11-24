@@ -2,6 +2,7 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
 use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
 use ApiPlatform\Doctrine\Orm\Filter\BooleanFilter;
@@ -14,7 +15,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity(repositoryClass: MovieRepository::class)]
 #[ApiResource()]
-#[ApiFilter(BooleanFilter::class, properties: ['online'])]
+#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'name' => 'partial'])]
 class Movie
 {
     #[ORM\Id]
