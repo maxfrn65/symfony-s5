@@ -15,7 +15,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity(repositoryClass: MovieRepository::class)]
 #[ApiResource()]
-#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'name' => 'partial'])]
+#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'title' => 'partial'])]
 class Movie
 {
     #[ORM\Id]
