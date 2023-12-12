@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: phpStan compliant + github action">
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="fix: api filter property name">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
@@ -34,7 +34,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/orm-setup" />
+        <entry key="$PROJECT_DIR$" value="hotfix/role-api-access" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -227,33 +227,33 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/api-filter&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -321,6 +321,7 @@
       <workItem from="1700639379063" duration="81000" />
       <workItem from="1700639731594" duration="11079000" />
       <workItem from="1700810588373" duration="1004000" />
+      <workItem from="1701121586959" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -522,7 +523,31 @@
       <option name="project" value="LOCAL" />
       <updated>1700810625490</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: search filter on Movie entity">
+      <option name="closed" value="true" />
+      <created>1700816574473</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1700816574473</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix: role api access">
+      <option name="closed" value="true" />
+      <created>1700816756142</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1700816756142</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix: api filter property name">
+      <option name="closed" value="true" />
+      <created>1700821006213</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1700821006213</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat demo page" />
     <MESSAGE value="feat demo page updated date syntax" />
     <MESSAGE value="chore updated composer json" />
     <MESSAGE value="feat product page" />
@@ -574,7 +598,11 @@
     <MESSAGE value="chore: composer update" />
     <MESSAGE value="chore: PSR12 compliant" />
     <MESSAGE value="chore: phpStan compliant + github action" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: phpStan compliant + github action" />
+    <MESSAGE value="chore: stash" />
+    <MESSAGE value="feat: search filter on Movie entity" />
+    <MESSAGE value="fix: role api access" />
+    <MESSAGE value="fix: api filter property name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: api filter property name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
