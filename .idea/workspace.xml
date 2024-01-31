@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: ide files">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symfony-s5.lL2h4w.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1385f0b0-c36e-4696-b723-ad528f3512a5/storage_v2/_src_/schema/symfony-s5.lL2h4w.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat: actors fixtures w/ fakerphp">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ActorFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony-s5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-s5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,6 +337,7 @@
       <workItem from="1706102290275" duration="24000" />
       <workItem from="1706102605471" duration="633000" />
       <workItem from="1706109411206" duration="1789000" />
+      <workItem from="1706537224118" duration="1766000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -608,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706015859822</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat: actors fixtures w/ fakerphp">
+      <option name="closed" value="true" />
+      <created>1706536129445</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1706536129445</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +641,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat slug service" />
     <MESSAGE value="feat movie entity + event" />
     <MESSAGE value="feat event listener" />
     <MESSAGE value="Entities" />
@@ -663,7 +665,8 @@
     <MESSAGE value="chore: ide data" />
     <MESSAGE value="fix: ci/cd branch" />
     <MESSAGE value="chore: ide files" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: ide files" />
+    <MESSAGE value="feat: actors fixtures w/ fakerphp" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: actors fixtures w/ fakerphp" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
