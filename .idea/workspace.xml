@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat: actors fixtures w/ fakerphp">
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="feat: added MediaObjectNormalizer.php serializer + added media_object to db">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes2/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes3/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes5/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_09_2023_16_11_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_09_2023_16_11__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/feat_entities,_database_setup_+_fixtures/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/feat_entities__database_setup___fixtures.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony-s5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-s5.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +229,8 @@
       <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
       <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
       <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -239,9 +256,9 @@
     &quot;Shell Script.Symfony Server Start.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/config-vichuploader&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/maxime/Code/symfony/www/cours/s5/symfony-s5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -261,6 +278,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates/product" />
     </key>
@@ -338,6 +356,8 @@
       <workItem from="1706102605471" duration="633000" />
       <workItem from="1706109411206" duration="1789000" />
       <workItem from="1706537224118" duration="1766000" />
+      <workItem from="1707859360249" duration="106000" />
+      <workItem from="1707859477538" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -611,7 +631,39 @@
       <option name="project" value="LOCAL" />
       <updated>1706536129445</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="chore: added vich-uploader bundle">
+      <option name="closed" value="true" />
+      <created>1706686405623</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1706686405623</updated>
+    </task>
+    <task id="LOCAL-00036" summary="chore: config vich_uploader.yaml">
+      <option name="closed" value="true" />
+      <created>1706687017558</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706687017558</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: added MediaObject.php entity &amp; CreateMediaObjectAction.php controller">
+      <option name="closed" value="true" />
+      <created>1706687353730</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706687353730</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: added MediaObjectNormalizer.php serializer + added media_object to db">
+      <option name="closed" value="true" />
+      <created>1706688137746</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706688137746</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,10 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat movie entity + event" />
-    <MESSAGE value="feat event listener" />
-    <MESSAGE value="Entities" />
-    <MESSAGE value="feat entites + orm setup" />
     <MESSAGE value="feat exposing entities to api" />
     <MESSAGE value="feat nationality fixtures" />
     <MESSAGE value="feat login form + user class" />
@@ -666,7 +714,11 @@
     <MESSAGE value="fix: ci/cd branch" />
     <MESSAGE value="chore: ide files" />
     <MESSAGE value="feat: actors fixtures w/ fakerphp" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: actors fixtures w/ fakerphp" />
+    <MESSAGE value="chore: added vich-uploader bundle" />
+    <MESSAGE value="chore: config vich_uploader.yaml" />
+    <MESSAGE value="feat: added MediaObject.php entity &amp; CreateMediaObjectAction.php controller" />
+    <MESSAGE value="feat: added MediaObjectNormalizer.php serializer + added media_object to db" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added MediaObjectNormalizer.php serializer + added media_object to db" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
