@@ -6,17 +6,20 @@ use App\Entity\Movie;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Persistence\ObjectManager;
+use Faker\Factory;
 
 class MoviesFixtures extends Fixture implements DependentFixtureInterface
 {
     public function load(ObjectManager $manager): void
     {
+        $fakerMovie=Factory::create();
+        $fakerMovie->addProvider(new \Xylis\FakerCinema\Provider\Movie($fakerMovie));
         foreach (range(1, 30) as $i) {
             $movie = new Movie();
-            $movie->setTitle('Movie ' . $i);
+            $movie->setTitle($fakerMovie->movie);
             $movie->setReleaseDate(new \DateTime());
-            $movie->setDuration(rand(60, 180));
-            $movie->setDescription('Description ' . $i);
+            $movie->setDuration($fakerMovie->runtime);
+            $movie->setDescription($fakerMovie->overview);
             $movie->setCategory($this->getReference('category_' . rand(1, 5)));
             $movie->setOnline(rand(0, 1));
             $actors = [];

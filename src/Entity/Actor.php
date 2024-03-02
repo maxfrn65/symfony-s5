@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
+use ApiPlatform\Metadata\ApiFilter;
 use ApiPlatform\Metadata\ApiResource;
 use App\Repository\ActorRepository;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -10,6 +12,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ActorRepository::class)]
 #[ApiResource()]
+#[ApiFilter(SearchFilter::class, properties: ['firstName' => 'partial'])]
+#[ApiFilter(SearchFilter::class, properties: ['lastName' => 'partial'])]
 class Actor
 {
     #[ORM\Id]

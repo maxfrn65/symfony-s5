@@ -1,7 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.51">
-    <root id="1"/>
+    <root id="1">
+      <DefaultCasing>mixed/mixed</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <Grants>|root||maxime|localhost|ALTER|G
+|root||root|localhost|ALTER|G
+|root||maxime|localhost|ALTER ROUTINE|G
+|root||root|localhost|ALTER ROUTINE|G
+|root||maxime|localhost|APPLICATION_PASSWORD_ADMIN|G
+|root||root|localhost|APPLICATION_PASSWORD_ADMIN|G
+|root||maxime|localhost|AUDIT_ABORT_EXEMPT|G
+|root||mysql.infoschema|localhost|AUDIT_ABORT_EXEMPT|G
+|root||mysql.session|localhost|AUDIT_ABORT_EXEMPT|G
+|root||mysql.sys|localhost|AUDIT_ABORT_EXEMPT|G
+|root||root|localhost|AUDIT_ABORT_EXEMPT|G
+|root||maxime|localhost|AUDIT_ADMIN|G
+|root||root|localhost|AUDIT_ADMIN|G
+|root||maxime|localhost|AUTHENTICATION_POLICY_ADMIN|G
+|root||mysql.session|localhost|AUTHENTICATION_POLICY_ADMIN|G
+|root||root|localhost|AUTHENTICATION_POLICY_ADMIN|G
+|root||maxime|localhost|BACKUP_ADMIN|G
+|root||mysql.session|localhost|BACKUP_ADMIN|G
+|root||root|localhost|BACKUP_ADMIN|G
+|root||maxime|localhost|BINLOG_ADMIN|G
+|root||root|localhost|BINLOG_ADMIN|G
+|root||maxime|localhost|BINLOG_ENCRYPTION_ADMIN|G
+|root||root|localhost|BINLOG_ENCRYPTION_ADMIN|G
+|root||maxime|localhost|CLONE_ADMIN|G
+|root||mysql.session|localhost|CLONE_ADMIN|G
+|root||root|localhost|CLONE_ADMIN|G
+|root||maxime|localhost|CONNECTION_ADMIN|G
+|root||mysql.session|localhost|CONNECTION_ADMIN|G
+|root||root|localhost|CONNECTION_ADMIN|G
+|root||maxime|localhost|CREATE|G
+|root||root|localhost|CREATE|G
+|root||maxime|localhost|CREATE ROLE|G
+|root||root|localhost|CREATE ROLE|G
+|root||maxime|localhost|CREATE ROUTINE|G
+|root||root|localhost|CREATE ROUTINE|G
+|root||maxime|localhost|CREATE TABLESPACE|G
+|root||root|localhost|CREATE TABLESPACE|G
+|root||maxime|localhost|CREATE TEMPORARY TABLES|G
+|root||root|localhost|CREATE TEMPORARY TABLES|G
+|root||maxime|localhost|CREATE USER|G
+|root||root|localhost|CREATE USER|G
+|root||maxime|localhost|CREATE VIEW|G
+|root||root|localhost|CREATE VIEW|G
+|root||maxime|localhost|DELETE|G
+|root||root|localhost|DELETE|G
+|root||maxime|localhost|DROP|G
+|root||root|localhost|DROP|G
+|root||maxime|localhost|DROP ROLE|G
+|root||root|localhost|DROP ROLE|G
+|root||maxime|localhost|ENCRYPTION_KEY_ADMIN|G
+|root||root|localhost|ENCRYPTION_KEY_ADMIN|G
+|root||maxime|localhost|EVENT|G
+|root||root|localhost|EVENT|G
+|root||maxime|localhost|EXECUTE|G
+|root||root|localhost|EXECUTE|G
+|root||maxime|localhost|FILE|G
+|root||root|localhost|FILE|G
+|root||maxime|localhost|FIREWALL_EXEMPT|G
+|root||mysql.infoschema|localhost|FIREWALL_EXEMPT|G
+|root||mysql.session|localhost|FIREWALL_EXEMPT|G
+|root||mysql.sys|localhost|FIREWALL_EXEMPT|G
+|root||root|localhost|FIREWALL_EXEMPT|G
+|root||maxime|localhost|FLUSH_OPTIMIZER_COSTS|G
+|root||root|localhost|FLUSH_OPTIMIZER_COSTS|G
+|root||maxime|localhost|FLUSH_STATUS|G
+|root||root|localhost|FLUSH_STATUS|G
+|root||maxime|localhost|FLUSH_TABLES|G
+|root||root|localhost|FLUSH_TABLES|G
+|root||maxime|localhost|FLUSH_USER_RESOURCES|G
+|root||root|localhost|FLUSH_USER_RESOURCES|G
+|root||maxime|localhost|GROUP_REPLICATION_ADMIN|G
+|root||root|localhost|GROUP_REPLICATION_ADMIN|G
+|root||maxime|localhost|GROUP_REPLICATION_STREAM|G
+|root||root|localhost|GROUP_REPLICATION_STREAM|G
+|root||maxime|localhost|INDEX|G
+|root||root|localhost|INDEX|G
+|root||maxime|localhost|INNODB_REDO_LOG_ARCHIVE|G
+|root||root|localhost|INNODB_REDO_LOG_ARCHIVE|G
+|root||maxime|localhost|INNODB_REDO_LOG_ENABLE|G
+|root||root|localhost|INNODB_REDO_LOG_ENABLE|G
+|root||maxime|localhost|INSERT|G
+|root||root|localhost|INSERT|G
+|root||maxime|localhost|LOCK TABLES|G
+|root||root|localhost|LOCK TABLES|G
+|root||maxime|localhost|PASSWORDLESS_USER_ADMIN|G
+|root||root|localhost|PASSWORDLESS_USER_ADMIN|G
+|root||maxime|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||root|localhost|PERSIST_RO_VARIABLES_ADMIN|G
+|root||maxime|localhost|PROCESS|G
+|root||root|localhost|PROCESS|G
+|root||maxime|localhost|REFERENCES|G
+|root||root|localhost|REFERENCES|G
+|root||maxime|localhost|RELOAD|G
+|root||root|localhost|RELOAD|G
+|root||maxime|localhost|REPLICATION CLIENT|G
+|root||root|localhost|REPLICATION CLIENT|G
+|root||maxime|localhost|REPLICATION SLAVE|G
+|root||root|localhost|REPLICATION SLAVE|G
+|root||maxime|localhost|REPLICATION_APPLIER|G
+|root||root|localhost|REPLICATION_APPLIER|G
+|root||maxime|localhost|REPLICATION_SLAVE_ADMIN|G
+|root||root|localhost|REPLICATION_SLAVE_ADMIN|G
+|root||maxime|localhost|RESOURCE_GROUP_ADMIN|G
+|root||root|localhost|RESOURCE_GROUP_ADMIN|G
+|root||maxime|localhost|RESOURCE_GROUP_USER|G
+|root||root|localhost|RESOURCE_GROUP_USER|G
+|root||maxime|localhost|ROLE_ADMIN|G
+|root||root|localhost|ROLE_ADMIN|G
+|root||maxime|localhost|SELECT|G
+|root||mysql.infoschema|localhost|SELECT|G
+|root||root|localhost|SELECT|G
+|root||maxime|localhost|SENSITIVE_VARIABLES_OBSERVER|G
+|root||root|localhost|SENSITIVE_VARIABLES_OBSERVER|G
+|root||maxime|localhost|SERVICE_CONNECTION_ADMIN|G
+|root||root|localhost|SERVICE_CONNECTION_ADMIN|G
+|root||maxime|localhost|SESSION_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|SESSION_VARIABLES_ADMIN|G
+|root||root|localhost|SESSION_VARIABLES_ADMIN|G
+|root||maxime|localhost|SET_USER_ID|G
+|root||root|localhost|SET_USER_ID|G
+|root||maxime|localhost|SHOW DATABASES|G
+|root||root|localhost|SHOW DATABASES|G
+|root||maxime|localhost|SHOW VIEW|G
+|root||root|localhost|SHOW VIEW|G
+|root||maxime|localhost|SHOW_ROUTINE|G
+|root||root|localhost|SHOW_ROUTINE|G
+|root||maxime|localhost|SHUTDOWN|G
+|root||mysql.session|localhost|SHUTDOWN|G
+|root||root|localhost|SHUTDOWN|G
+|root||maxime|localhost|SUPER|G
+|root||mysql.session|localhost|SUPER|G
+|root||root|localhost|SUPER|G
+|root||maxime|localhost|SYSTEM_USER|G
+|root||mysql.infoschema|localhost|SYSTEM_USER|G
+|root||mysql.session|localhost|SYSTEM_USER|G
+|root||mysql.sys|localhost|SYSTEM_USER|G
+|root||root|localhost|SYSTEM_USER|G
+|root||maxime|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||mysql.session|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||root|localhost|SYSTEM_VARIABLES_ADMIN|G
+|root||maxime|localhost|TABLE_ENCRYPTION_ADMIN|G
+|root||root|localhost|TABLE_ENCRYPTION_ADMIN|G
+|root||maxime|localhost|TELEMETRY_LOG_ADMIN|G
+|root||root|localhost|TELEMETRY_LOG_ADMIN|G
+|root||maxime|localhost|TRIGGER|G
+|root||root|localhost|TRIGGER|G
+|root||maxime|localhost|UPDATE|G
+|root||root|localhost|UPDATE|G
+|root||maxime|localhost|XA_RECOVER_ADMIN|G
+|root||root|localhost|XA_RECOVER_ADMIN|G
+|root||root|localhost|grant option|G
+performance_schema|schema||mysql.session|localhost|SELECT|G
+sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
+      <ServerVersion>8.0.33</ServerVersion>
+    </root>
     <collation id="2" parent="1" name="armscii8_general_ci">
       <Charset>armscii8</Charset>
       <DefaultForCharset>1</DefaultForCharset>
@@ -932,7 +1091,7 @@
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="symfony-s5">
-      <LastIntrospectionLocalTimestamp>2024-01-31.08:00:00</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-03-02.15:21:37</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="296" parent="1" name="maxime">
@@ -995,7 +1154,7 @@
       <CollationName>utf8mb4_unicode_ci</CollationName>
     </table>
     <column id="310" parent="301" name="id">
-      <AutoIncrement>158</AutoIncrement>
+      <AutoIncrement>198</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1035,7 +1194,7 @@
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="318" parent="302" name="id">
-      <AutoIncrement>106</AutoIncrement>
+      <AutoIncrement>126</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1174,7 +1333,7 @@
       <Position>3</Position>
     </column>
     <column id="346" parent="306" name="description">
-      <DasType>varchar(255)|0s</DasType>
+      <DasType>varchar(1000)|0s</DasType>
       <Position>4</Position>
     </column>
     <column id="347" parent="306" name="release_date">
@@ -1190,124 +1349,137 @@
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <foreign-key id="350" parent="306" name="FK_1D5EF26F12469DE2">
+    <column id="350" parent="306" name="image_id">
+      <DasType>int|0s</DasType>
+      <Position>8</Position>
+    </column>
+    <foreign-key id="351" parent="306" name="FK_1D5EF26F12469DE2">
       <ColNames>category_id</ColNames>
       <RefColNames>id</RefColNames>
       <RefTableName>category</RefTableName>
     </foreign-key>
-    <index id="351" parent="306" name="PRIMARY">
+    <foreign-key id="352" parent="306" name="FK_1D5EF26F3DA5256D">
+      <ColNames>image_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>media_object</RefTableName>
+    </foreign-key>
+    <index id="353" parent="306" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="352" parent="306" name="IDX_1D5EF26F12469DE2">
+    <index id="354" parent="306" name="IDX_1D5EF26F12469DE2">
       <ColNames>category_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="353" parent="306" name="PRIMARY">
+    <index id="355" parent="306" name="IDX_1D5EF26F3DA5256D">
+      <ColNames>image_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="356" parent="306" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="354" parent="307" name="movie_id">
+    <column id="357" parent="307" name="movie_id">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="355" parent="307" name="actor_id">
+    <column id="358" parent="307" name="actor_id">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="356" parent="307" name="FK_3A374C658F93B6FC">
+    <foreign-key id="359" parent="307" name="FK_3A374C658F93B6FC">
       <ColNames>movie_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>id</RefColNames>
       <RefTableName>movie</RefTableName>
     </foreign-key>
-    <foreign-key id="357" parent="307" name="FK_3A374C6510DAF24A">
+    <foreign-key id="360" parent="307" name="FK_3A374C6510DAF24A">
       <ColNames>actor_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>id</RefColNames>
       <RefTableName>actor</RefTableName>
     </foreign-key>
-    <index id="358" parent="307" name="PRIMARY">
+    <index id="361" parent="307" name="PRIMARY">
       <ColNames>movie_id
 actor_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="359" parent="307" name="IDX_3A374C658F93B6FC">
+    <index id="362" parent="307" name="IDX_3A374C658F93B6FC">
       <ColNames>movie_id</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="360" parent="307" name="IDX_3A374C6510DAF24A">
+    <index id="363" parent="307" name="IDX_3A374C6510DAF24A">
       <ColNames>actor_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="361" parent="307" name="PRIMARY">
+    <key id="364" parent="307" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="362" parent="308" name="id">
-      <AutoIncrement>127</AutoIncrement>
+    <column id="365" parent="308" name="id">
+      <AutoIncrement>163</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="363" parent="308" name="nationality">
+    <column id="366" parent="308" name="nationality">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="364" parent="308" name="PRIMARY">
+    <index id="367" parent="308" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="365" parent="308" name="PRIMARY">
+    <key id="368" parent="308" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="366" parent="309" name="id">
-      <AutoIncrement>12</AutoIncrement>
+    <column id="369" parent="309" name="id">
+      <AutoIncrement>16</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="367" parent="309" name="email">
+    <column id="370" parent="309" name="email">
       <DasType>varchar(180)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="368" parent="309" name="roles">
+    <column id="371" parent="309" name="roles">
       <DasType>json|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="369" parent="309" name="password">
+    <column id="372" parent="309" name="password">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="370" parent="309" name="PRIMARY">
+    <index id="373" parent="309" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="371" parent="309" name="UNIQ_8D93D649E7927C74">
+    <index id="374" parent="309" name="UNIQ_8D93D649E7927C74">
       <ColNames>email</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="372" parent="309" name="PRIMARY">
+    <key id="375" parent="309" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="373" parent="309" name="UNIQ_8D93D649E7927C74">
+    <key id="376" parent="309" name="UNIQ_8D93D649E7927C74">
       <UnderlyingIndexName>UNIQ_8D93D649E7927C74</UnderlyingIndexName>
     </key>
   </database-model>
