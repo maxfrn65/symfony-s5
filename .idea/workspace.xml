@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: phpStan compliant + github action">
+    <list default="true" id="4c504ae4-a76d-47dc-9483-53c154fccc50" name="Changes" comment="chore: getting ready for prod">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Movie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Movie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/orm-setup" />
+        <entry key="$PROJECT_DIR$" value="hotfix/role-api-access" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,6 +65,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -211,6 +214,11 @@
       <path value="$PROJECT_DIR$/vendor/phpstan/phpstan" />
       <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
       <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/symfony/clock_compare" />
+      <path value="$PROJECT_DIR$/vendor/xylis/faker-cinema-providers" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -229,14 +237,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Shell Script.Symfony Server Start.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/maxime/Documents/Code/symfony/www/cours/s5/symfony-s5",
+    "git-widget-placeholder": "release/0.0.1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/maxime/Code/symfony/www/cours/s5/symfony-s5",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -244,7 +255,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   },
@@ -256,6 +267,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates/product" />
     </key>
@@ -321,6 +333,37 @@
       <workItem from="1700639379063" duration="81000" />
       <workItem from="1700639731594" duration="11079000" />
       <workItem from="1700810588373" duration="1004000" />
+      <workItem from="1701121586959" duration="619000" />
+      <workItem from="1702398501111" duration="218000" />
+      <workItem from="1702398737022" duration="2578000" />
+      <workItem from="1702461303182" duration="713000" />
+      <workItem from="1702624474236" duration="30000" />
+      <workItem from="1706015679427" duration="86000" />
+      <workItem from="1706015780307" duration="5890000" />
+      <workItem from="1706081981568" duration="624000" />
+      <workItem from="1706102290275" duration="24000" />
+      <workItem from="1706102605471" duration="633000" />
+      <workItem from="1706109411206" duration="1789000" />
+      <workItem from="1706537224118" duration="1766000" />
+      <workItem from="1707859360249" duration="106000" />
+      <workItem from="1707859477538" duration="13000" />
+      <workItem from="1707859503366" duration="2355000" />
+      <workItem from="1707917842245" duration="307000" />
+      <workItem from="1707918164633" duration="1704000" />
+      <workItem from="1707924326607" duration="2305000" />
+      <workItem from="1707991074855" duration="4352000" />
+      <workItem from="1708007037080" duration="152000" />
+      <workItem from="1708008110039" duration="2213000" />
+      <workItem from="1708376506077" duration="868000" />
+      <workItem from="1708424906560" duration="100000" />
+      <workItem from="1709240769528" duration="3120000" />
+      <workItem from="1709303436148" duration="1596000" />
+      <workItem from="1709305104572" duration="58000" />
+      <workItem from="1709305173468" duration="1632000" />
+      <workItem from="1709388514417" duration="3590000" />
+      <workItem from="1709395487131" duration="10452000" />
+      <workItem from="1709501359997" duration="11383000" />
+      <workItem from="1709587712883" duration="4630000" />
     </task>
     <task id="LOCAL-00001" summary="feat demo page">
       <option name="closed" value="true" />
@@ -522,7 +565,159 @@
       <option name="project" value="LOCAL" />
       <updated>1700810625490</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: search filter on Movie entity">
+      <option name="closed" value="true" />
+      <created>1700816574473</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1700816574473</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix: role api access">
+      <option name="closed" value="true" />
+      <created>1700816756142</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1700816756142</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix: api filter property name">
+      <option name="closed" value="true" />
+      <created>1700821006213</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1700821006213</updated>
+    </task>
+    <task id="LOCAL-00029" summary="feat: movie api filter">
+      <option name="closed" value="true" />
+      <created>1702398546523</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1702398546523</updated>
+    </task>
+    <task id="LOCAL-00030" summary="feat: movie api filter">
+      <option name="closed" value="true" />
+      <created>1702398557981</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702398557981</updated>
+    </task>
+    <task id="LOCAL-00031" summary="chore: ide data">
+      <option name="closed" value="true" />
+      <created>1702398751510</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1702398751510</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix: ci/cd branch">
+      <option name="closed" value="true" />
+      <created>1702400463502</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702400463502</updated>
+    </task>
+    <task id="LOCAL-00033" summary="chore: ide files">
+      <option name="closed" value="true" />
+      <created>1706015859822</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706015859822</updated>
+    </task>
+    <task id="LOCAL-00034" summary="feat: actors fixtures w/ fakerphp">
+      <option name="closed" value="true" />
+      <created>1706536129445</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1706536129445</updated>
+    </task>
+    <task id="LOCAL-00035" summary="chore: added vich-uploader bundle">
+      <option name="closed" value="true" />
+      <created>1706686405623</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1706686405623</updated>
+    </task>
+    <task id="LOCAL-00036" summary="chore: config vich_uploader.yaml">
+      <option name="closed" value="true" />
+      <created>1706687017558</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706687017558</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat: added MediaObject.php entity &amp; CreateMediaObjectAction.php controller">
+      <option name="closed" value="true" />
+      <created>1706687353730</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706687353730</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat: added MediaObjectNormalizer.php serializer + added media_object to db">
+      <option name="closed" value="true" />
+      <created>1706688137746</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706688137746</updated>
+    </task>
+    <task id="LOCAL-00039" summary="chore: shelved.patch">
+      <option name="closed" value="true" />
+      <created>1707859959334</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1707859959334</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat: added image property to Movie.php + persisted to db">
+      <option name="closed" value="true" />
+      <created>1708010435957</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1708010435957</updated>
+    </task>
+    <task id="LOCAL-00041" summary="chore: workspace">
+      <option name="closed" value="true" />
+      <created>1708376592400</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1708376592400</updated>
+    </task>
+    <task id="LOCAL-00042" summary="feat: added movies fake data">
+      <option name="closed" value="true" />
+      <created>1709395893902</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1709395893902</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fix: modified fixtures">
+      <option name="closed" value="true" />
+      <created>1709570850399</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1709570850399</updated>
+    </task>
+    <task id="LOCAL-00044" summary="chore: getting ready for prod">
+      <option name="closed" value="true" />
+      <created>1709587836287</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1709587836287</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,29 +747,33 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat demo page" />
-    <MESSAGE value="feat demo page updated date syntax" />
-    <MESSAGE value="chore updated composer json" />
-    <MESSAGE value="feat product page" />
-    <MESSAGE value="feat slug service" />
-    <MESSAGE value="feat movie entity + event" />
-    <MESSAGE value="feat event listener" />
-    <MESSAGE value="Entities" />
-    <MESSAGE value="feat entites + orm setup" />
-    <MESSAGE value="feat exposing entities to api" />
-    <MESSAGE value="feat nationality fixtures" />
-    <MESSAGE value="feat login form + user class" />
-    <MESSAGE value="feat user fixtures" />
-    <MESSAGE value="chore: security files" />
-    <MESSAGE value="chore: movie crud + jwt bundle" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fix: hashing fixtures password" />
     <MESSAGE value="chore: jwt bundle configuration" />
-    <MESSAGE value="feat: movie api filter" />
     <MESSAGE value="feat (wip): movie api filter" />
     <MESSAGE value="chore: composer update" />
     <MESSAGE value="chore: PSR12 compliant" />
     <MESSAGE value="chore: phpStan compliant + github action" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: phpStan compliant + github action" />
+    <MESSAGE value="chore: stash" />
+    <MESSAGE value="feat: search filter on Movie entity" />
+    <MESSAGE value="fix: role api access" />
+    <MESSAGE value="fix: api filter property name" />
+    <MESSAGE value="feat: movie api filter" />
+    <MESSAGE value="chore: ide data" />
+    <MESSAGE value="fix: ci/cd branch" />
+    <MESSAGE value="chore: ide files" />
+    <MESSAGE value="feat: actors fixtures w/ fakerphp" />
+    <MESSAGE value="chore: added vich-uploader bundle" />
+    <MESSAGE value="chore: config vich_uploader.yaml" />
+    <MESSAGE value="feat: added MediaObject.php entity &amp; CreateMediaObjectAction.php controller" />
+    <MESSAGE value="feat: added MediaObjectNormalizer.php serializer + added media_object to db" />
+    <MESSAGE value="chore: shelved.patch" />
+    <MESSAGE value="feat: added image property to Movie.php + persisted to db" />
+    <MESSAGE value="chore: workspace" />
+    <MESSAGE value="feat: added movies fake data" />
+    <MESSAGE value="fix: modified fixtures" />
+    <MESSAGE value="chore: getting ready for prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: getting ready for prod" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

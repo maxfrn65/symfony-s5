@@ -4,18 +4,20 @@ namespace App\Entity;
 
 use ApiPlatform\Doctrine\Orm\Filter\SearchFilter;
 use ApiPlatform\Metadata\ApiFilter;
+use ApiPlatform\Metadata\ApiProperty;
 use ApiPlatform\Metadata\ApiResource;
-use ApiPlatform\Doctrine\Orm\Filter\BooleanFilter;
 use App\Repository\MovieRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\Validator\Constraints as Assert;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 #[ORM\Entity(repositoryClass: MovieRepository::class)]
-#[ApiResource()]
-#[ApiFilter(SearchFilter::class, properties: ['id' => 'exact', 'name' => 'partial'])]
+#[ApiResource(types: 'https://schema.org/Movie', paginationItemsPerPage: 12)]
+#[ApiFilter(SearchFilter::class, properties: ['title' => 'partial'])]
 class Movie
 {
     #[ORM\Id]
@@ -25,9 +27,10 @@ class Movie
 
     #[Assert\NotBlank(message: "Le titre est obligatoire")]
     #[ORM\Column(length: 255)]
+    #[ApiProperty(types: 'https://schema.org/name')]
     private ?string $title = null;
 
-    #[ORM\Column(length: 255, nullable: true)]
+    #[ORM\Column(length: 1000, nullable: true)]
     private ?string $description = null;
 
     #[ORM\Column(type: Types::DATETIME_MUTABLE, nullable: true)]
@@ -35,6 +38,17 @@ class Movie
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $duration = null;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $fileName;
+
+    /**
+     * @Vich\UploadableField(mapping="movie", fileNameProperty="fileName")
+     * @var File|null
+     */
+    private $file;
 
     #[ORM\ManyToOne(inversedBy: 'movies')]
     private ?Category $category = null;
@@ -44,6 +58,11 @@ class Movie
 
     #[ORM\Column]
     private ?bool $online = null;
+
+    #[ORM\ManyToOne(targetEntity: MediaObject::class)]
+    #[ORM\JoinColumn(nullable: true)]
+    #[ApiProperty(types: ['https://schema.org/image'])]
+    public ?MediaObject $image = null;
 
     public function __construct()
     {
@@ -103,6 +122,34 @@ class Movie
         return $this;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getFileName()
+    {
+        return $this->fileName;
+    }
+
+    /**
+     * @param mixed $fileName
+     */
+    public function setFileName($fileName): void
+    {
+        $this->fileName = $fileName;
+    }
+
+    public function getFile(): ?File
+    {
+        return $this->file;
+    }
+
+    public function setFile(?File $file): void
+    {
+        $this->file = $file;
+    }
+
+
+
     public function getCategory(): ?Category
     {
         return $this->category;
@@ -150,4 +197,15 @@ class Movie
 
         return $this;
     }
+
+    public function getImage(): ?MediaObject
+    {
+        return $this->image;
+    }
+
+    public function setImage(?MediaObject $image): void
+    {
+        $this->image = $image;
+    }
+
 }
