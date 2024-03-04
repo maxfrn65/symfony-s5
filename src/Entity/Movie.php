@@ -16,7 +16,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 #[ORM\Entity(repositoryClass: MovieRepository::class)]
-#[ApiResource(types: 'https://schema.org/Movie')]
+#[ApiResource(types: 'https://schema.org/Movie', paginationItemsPerPage: 12)]
 #[ApiFilter(SearchFilter::class, properties: ['title' => 'partial'])]
 class Movie
 {

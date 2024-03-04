@@ -12,9 +12,9 @@ class MoviesFixtures extends Fixture implements DependentFixtureInterface
 {
     public function load(ObjectManager $manager): void
     {
-        $fakerMovie=Factory::create();
+        $fakerMovie = Factory::create();
         $fakerMovie->addProvider(new \Xylis\FakerCinema\Provider\Movie($fakerMovie));
-        foreach (range(1, 30) as $i) {
+        foreach (range(0, 50) as $i) {
             $movie = new Movie();
             $movie->setTitle($fakerMovie->movie);
             $movie->setReleaseDate(new \DateTime());
