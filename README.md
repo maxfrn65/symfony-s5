@@ -1,2 +1,3 @@
-# Symfony S5 - Projet back CineBuddy
+# Cinebuddy - Backend
 
+A Symfony project powered by ApiPlatform to manipulate movies data in frontend project. 
