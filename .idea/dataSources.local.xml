@@ -15,5 +15,15 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="VPS" uuid="4347b495-4915-4869-99fc-2a4f2562c357">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>mmi21e05</user-name>
+      <schema-mapping />
+      <ssh-properties>
+        <enabled>false</enabled>
+        <ssh-config-id>d5e5ce7c-5d62-49d1-8fd7-a7edd10bde20</ssh-config-id>
+      </ssh-properties>
+    </data-source>
   </component>
 </project>
