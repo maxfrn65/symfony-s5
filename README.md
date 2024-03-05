@@ -2,7 +2,7 @@
 
 **A Symfony project powered by ApiPlatform to manipulate movies data in frontend project.** 
 
-## 🛠️ Setup
+## 🛠️ Setup for local developement
 
 ```
 git clone https://github.com/maxfrn65/symfony-s5.git
